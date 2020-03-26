@@ -16,12 +16,11 @@
     height: auto;
     outline: none;
     cursor: pointer;
-    margin-left: 700px;
     border: 1px solid #966909;
     color: #966909;
     font-family: inherit;
     font-size: 0.8em;
-    padding: 15px 20px;
+    padding: 15px 30px;
     box-shadow: 2px 2px 2px #966909;
 }
 
