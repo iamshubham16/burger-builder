@@ -5,7 +5,10 @@ const input = (props) => {
 
     let inputElement = null;
 
-    switch(props.inputtype) {
+    console.log(props.elementConfig);
+       
+    
+    switch(props.elementType) {
         case ('input') :
             inputElement = <input 
                 className = {classes.InputElement} 
