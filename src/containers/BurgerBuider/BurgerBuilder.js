@@ -19,10 +19,10 @@ class BurgerBuilder extends Component {
     state = {
         ingredients: null, 
         totalPrice: 20,
-        purchaseable: false,
-        purchasing: false,
-        loading: false,
-        error:false
+        purchaseable: false, // UI State
+        purchasing: false, // To view Modal (UI state)
+        loading: false, // To display Spinner (UI state)
+        error:false // To load information in case of error (UI state)
     }
 
     componentDidMount () {
